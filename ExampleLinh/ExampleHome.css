@@ -1,14 +1,20 @@
-.header{
-    background-color:gainsboro;
-    border-radius: 1px;
-    padding: 0 10px;
+.header {
+  background-color: gainsboro;
+  border-radius: 1px;
+  padding: 0 10px;
 }
-.img{
-    width: 150px;
-    height: 150px;
-    padding: 10px 10px;
+.img {
+  width: 150px;
+  height: 150px;
+  padding: 10px 10px;
 }
-.col-10{
+.col-10 {
+  border-left: 1px solid black;
+  margin-bottom: 250px;
+}
+.col-10-up{
     border-bottom: 1px solid black;
-    margin-bottom: 250px;
 }
+.table{
+text-align: center;
+}  

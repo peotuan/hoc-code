@@ -9,7 +9,9 @@
     color: #222222;
     font-size: 30px;
   }
-
+  .img{
+    width:160px;
+  }
   .header .navi {
     padding: 0 10px;
     color: #222222;
@@ -17,7 +19,7 @@
 
   .left {
     float: left;
-    width: 200px
+    width: 200px;
     padding: 18px;
   }
 

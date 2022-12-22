@@ -1,0 +1,60 @@
+.head {
+  padding-top: 50px;
+  background-color: silver;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+.image {
+  width: 150px;
+  height: 150px;
+}
+.nav {
+  padding-top: 10px;
+  padding-left: 15px;
+  border-right: 5px solid silver;
+  height: 700px;
+}
+.content {
+  padding-left: 10px;
+  height: 760px;
+}
+.content1 {
+  border: 1px solid black;
+}
+
+.content1 .col-4 {
+  padding: 0;
+}
+
+.content1 .col-4 div {
+  border: 1px solid grey;
+}
+
+.top {
+  color: white;
+  background-color: aquamarine;
+  font-size: 20px;
+  padding: 10 20;
+}
+.bot {
+  text-align: left;
+  font-size: 17px;
+}
+.gach {
+  border-bottom: 2px solid black;
+}
+.mail {
+  float: left;
+}
+.skill1 {
+  padding-top: 30px;
+  float: left;
+  text-align: left;
+}
+.last {
+  color: white;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  text-align: center;
+  background-color: rgb(55, 55, 178);
+}

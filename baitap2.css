@@ -1,0 +1,30 @@
+body { 
+    background-image: url(./ha/2029165.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin: auto 0;
+}
+.text { 
+    padding-top: 20%;
+    
+}
+.button { 
+    background-color: rgb(123, 19, 227);
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+}
+.text1 {
+    font-size: 100px;
+}
+
+.text2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.text3 {
+    font-size: 20px;
+    padding-bottom: 30px;
+}

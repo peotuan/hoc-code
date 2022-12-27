@@ -1,68 +1,70 @@
-body { 
-    background-color: #ED7371 !important;
+body {
+  background-color: #ed7371 !important;
+  overflow: hidden;
 }
 .text {
-    color: white;
-    padding-left: 110px !important;
-    padding-top: 300px;
-    
+  color: white;
+  padding-left: 110px !important;
+  padding-top: 300px;
 }
 .text1 {
-    font-size: 50px;
-    padding-bottom: 60px;
+  font-size: 50px;
+  padding-bottom: 60px;
 }
 .text2 {
-    font-size: 27px;
+  font-size: 27px;
 }
 .text3 {
-    margin-left: 40px;
-    text-align: center;
-    margin-top: 140px;
-    color: white;
-    background-color: #7424C7;
-    padding: 25px ;
-    border: 1px solid none;
-    border-radius: 15px;
-    width: 800px;
-    font-size: 20px;
-    box-shadow: 2px 10px #c45e5c;
+  margin-left: 40px;
+  text-align: center;
+  margin-top: 140px;
+  color: white;
+  background-color: #7424c7;
+  padding: 25px;
+  border: 1px solid none;
+  border-radius: 15px;
+  width: 800px;
+  font-size: 20px;
+  box-shadow: 2px 10px #c45e5c;
 }
-.text4 { 
-    margin-left: 40px;
-    margin-top: 50px;
-    color: white;
-    background-color: white;
-    padding: 40px ;
-    border: 1px solid none;
-    border-radius: 15px;
-    width: 800px;
-    font-size: 20px;
-    box-shadow: 2px 10px #c45e5c;
+.text4 {
+  margin-left: 40px;
+  margin-top: 50px;
+  color: white;
+  background-color: white;
+  padding: 40px;
+  border: 1px solid none;
+  border-radius: 15px;
+  width: 800px;
+  font-size: 20px;
+  box-shadow: 2px 10px #c45e5c;
 }
 .text5 {
-    padding: 10px 30px;
-    border: 2px solid #d3cbdb87;
-    border-radius: 15px;
-    width: 730px;
-    color: rgb(96, 87, 87);
+  padding: 10px 30px;
+  border: 2px solid #d3cbdb87;
+  border-radius: 15px;
+  width: 100%;
+  color: rgb(96, 87, 87);
+  margin-bottom: 20px;
 }
-.text6 {
-    background-color: #41db84;
-    color: white;
-    padding: 17px ;
-    border-radius: 7px; 
-    border : 1px none;
-    font-size: 16px;
-    text-align: center;
-    width: 710px;
-    box-shadow: 2px 5px #5DCA8B;
-    margin-bottom: 40px;
+.btn-full-width {
+  background-color: #41db84;
+  color: white;
+  padding: 17px;
+  border-radius: 7px;
+  border: 1px none;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+  box-shadow: 2px 5px #5dca8b;
+  margin-bottom: 40px;
 }
 .text7 {
-    color: #D5C6DB;
-    text-align: center;
-    font-size: 17px;
+  color: #d5c6db;
+  text-align: center;
+  font-size: 17px;
 }
 .text8 {
-    color: #EF847E;
+  color: #ef847e;
+  cursor: pointer;
 }

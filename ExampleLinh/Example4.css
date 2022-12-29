@@ -39,16 +39,32 @@
 }
 .content {
   background-color: #f5f6fb;
+  border-bottom: 10px solid black;
 }
-.h1 {
-  margin-top: 50px !important ;
-  font-size: 40px !important;
+.h2 {
   text-align: center;
+  margin-top: 60px !important;
+}
+.row{
+
+
+}
+.col-4{
+  margin-top: 40px !important;
+  
 }
 
 .card-container {
   margin-left: auto !important;
   margin-right: auto !important;
+}
+.card-img-top{
+  width: 350px !important;
+  height: 180px;
+
+}
+.card-body{
+  width: 350px;
 }
 
 .card-text {
@@ -60,4 +76,31 @@
 }
 .bottom-card {
   margin-top: 10px !important;
+}
+.footer{
+  background-color: #0070E4;
+  height: 114px;
+  width: 1885px;
+}
+.foot1{
+}
+.h3{
+  float: right;
+  
+}
+.text{
+  color: white;
+ margin-top: auto;
+ margin-bottom: auto;
+
+}
+.foot3{
+
+}
+.but1{
+background-color: #FF125D;
+color: white;
+width: 250px ;
+height: 50px;
+border-radius: 5px;
 }

@@ -45,29 +45,10 @@
   font-size: 40px !important;
   text-align: center;
 }
-.card-body {
-}
-.card1 {
-  width: 340px;
-  height: 300px;
-  margin-left: 300px;
-  margin-top: 100px;
-}
-.card2 {
-  width: 340px;
-  height: 300px;
-  margin-left: 300px;
-}
-.card3 {
-  width: 340px;
-  height: 300px;
-  margin-left: 700px;
-}
-.card4 {
-  width: 340px;
-  height: 300px;
-  margin-left: 700px;
-  margin-bottom: 100px;
+
+.card-container {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .card-text {
@@ -76,4 +57,7 @@
   height: 50px;
   padding-left: 10px;
   padding-top: 10px;
+}
+.bottom-card {
+  margin-top: 10px !important;
 }

@@ -1,0 +1,178 @@
+.next_pic_product_detail {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  cursor: pointer;
+}
+.prev_pic_product_detail {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  cursor: pointer;
+}
+.next_pic_product_detail i,
+.prev_pic_product_detail i {
+  color: #313131;
+  font-size: 25px;
+}
+.MagicZoom,
+.mz-figure {
+  z-index: 0;
+}
+.cfg-btn {
+  background-color: rgb(55, 181, 114);
+  color: #fff;
+  border: 0;
+  box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.3);
+  outline: 0;
+  cursor: pointer;
+  width: 200px;
+  padding: 10px;
+  font-size: 1em;
+  position: relative;
+  display: inline-block;
+  margin: 10px auto;
+}
+.cfg-btn:hover:not([disabled]) {
+  background-color: rgb(37, 215, 120);
+}
+.mobile-magic .cfg-btn:hover:not([disabled]) {
+  background: rgb(55, 181, 114);
+}
+.cfg-btn[disabled] {
+  opacity: 0.5;
+  color: #808080;
+  background: #ddd;
+}
+.cfg-btn.btn-preview,
+.cfg-btn.btn-preview:active,
+.cfg-btn.btn-preview:focus {
+  font-size: 1em;
+  position: relative;
+  display: block;
+  margin: 10px auto;
+}
+.cfg-btn,
+.preview,
+.app-figure,
+.api-controls,
+.wizard-settings,
+.wizard-settings .inner,
+.wizard-settings .footer,
+.wizard-settings input,
+.wizard-settings select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.preview,
+.wizard-settings {
+  padding: 10px;
+  border: 0;
+  min-height: 1px;
+}
+.preview {
+  position: relative;
+}
+.api-controls {
+  text-align: center;
+}
+.api-controls button,
+.api-controls button:active,
+.api-controls button:focus {
+  width: 80px;
+  font-size: 0.7em;
+  white-space: nowrap;
+}
+.app-figure {
+  width: 80% !important;
+  margin: 0px auto;
+  border: 0px solid red;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+.selectors {
+  position: relative;
+  z-index: 1;
+  width: auto !important;
+  margin: auto;
+}
+.selectors .mz-thumb img {
+}
+.mz-thumb-selected img {
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+}
+.mz-thumb:hover:not(.mz-thumb-selected) img {
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%);
+}
+@media (min-width: 0px) {
+  .preview {
+    width: 100%;
+    float: none;
+  }
+}
+@media (min-width: 1024px) {
+  .preview {
+    width: calc(100% - 340px);
+  }
+  .wizard-settings {
+    top: 0;
+    min-height: 100%;
+  }
+  .wizard-settings .inner {
+    margin-top: 60px;
+  }
+  .wizard-settings .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .wizard-settings .settings-controls {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 340px;
+    padding: 10px 0 0;
+    text-align: center;
+    background-color: inherit;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .api-controls button,
+  .api-controls button:active,
+  .api-controls button:focus {
+    width: 70px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .app-figure {
+    width: 98% !important;
+    margin: 50px auto;
+    padding: 0;
+  }
+  .app-code-sample {
+    display: none;
+  }
+  .wizard-settings {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mz-thumb img {
+    max-width: auto;
+  }
+}
+@media screen and (max-width: 560px) {
+  .api-controls .sep {
+    content: "";
+    display: table;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .preview {
+    padding: 10px 160px;
+  }
+}

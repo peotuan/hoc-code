@@ -1,0 +1,402 @@
+/* Begin Form Login Top */
+.top-login {
+  margin: 0px 20px;
+}
+.top-login .login-box {
+  float: right;
+  color: #313131;
+}
+.top-login .register {
+  float: right;
+  margin-right: 10px;
+  position: relative;
+}
+.top-login .register .info-login-user {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 175px;
+  padding-bottom: 5px;
+  background: #313131;
+  display: none;
+  z-index: 999;
+  text-align: left;
+  border-radius: 3px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.top-login .register .info-login-user:before {
+  z-index: 2;
+  top: -7px;
+  left: 50%;
+  margin-left: -7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 7.5px 7px 7.5px;
+  border-color: transparent transparent #313131 transparent;
+  position: absolute;
+  content: "";
+}
+.top-login .register .info-login-user ul {
+  padding: 0px;
+  list-style: none;
+  margin-top: 5px;
+}
+.top-login .register .info-login-user ul li {
+  line-height: 22px;
+}
+.top-login .register .info-login-user ul li a {
+  padding-left: 10px;
+  color: white;
+  font-size: 12px;
+  font-family: tahoma;
+}
+.top-login .login-box a:first-child {
+  border-right: 1px solid #403f3f;
+  border-left: 1px solid #403f3f;
+  padding: 0px 10px;
+  margin: 0px 10px;
+}
+.top-login .register .info-login-user ul li a:hover {
+  text-decoration: underline;
+}
+.top-login .register strong {
+  color: #313131;
+  font-family: arial;
+  font-size: 13px;
+}
+.top-login .register strong a {
+  color: #ae3133;
+  font-family: arial;
+  font-size: 13px;
+  cursor: pointer;
+}
+.top-login .register strong a:hover {
+  text-decoration: underline;
+}
+.top-login .login-box i {
+  font-size: 15px;
+  color: #241f0e;
+}
+.top-login .login-box a {
+  padding-right: 10px;
+  color: #241f0e;
+  font-size: 15px;
+  font-family: "RobotoCondensedRegular";
+}
+.top-login .login-box a:hover {
+  text-decoration: none;
+  color: #b20300;
+}
+.box-login-top {
+  display: none;
+}
+.title-login-top {
+  min-height: 50px;
+  background: #ae3133;
+  display: table;
+  width: 100%;
+}
+.title-login-top h3 {
+  color: white;
+  font-family: tahoma;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 30px;
+  padding: 10px 0px;
+  display: table-cell;
+}
+.frm-login-top {
+  background: rgba(128, 128, 128, 0.5);
+  padding: 10px;
+}
+.frm-login-top p {
+  line-height: 37px;
+  margin-bottom: 10px;
+}
+.frm-login-top label {
+  width: 65px;
+  font-size: 13px;
+  color: #333333;
+  font-family: arial;
+  display: inline-block;
+  vertical-align: top;
+}
+.frm-login-top p .inp-login {
+  border: 1px solid rgba(51, 51, 51, 0.52);
+  border-radius: 3px;
+  outline: none;
+  line-height: 25px;
+  width: 269px;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+.remember_me {
+  display: inline-block;
+  vertical-align: top;
+  width: 15px;
+  height: 15px;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.remember_me_span {
+  font-size: 13px;
+  color: #333333;
+  font-family: arial;
+  display: inline-block;
+  vertical-align: top;
+}
+.forget_pass {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+.forget_pass a {
+  color: #333333;
+  font-family: arial;
+  font-size: 13px;
+}
+.forget_pass a:hover {
+  text-decoration: underline;
+  color: red;
+}
+.submit input {
+  border: 1px solid rgba(128, 128, 128, 0.64);
+  outline: none;
+  width: 100px;
+  height: 33px;
+  font-size: 15px;
+  color: #333333;
+  font-family: arial;
+  cursor: pointer;
+}
+.submit input:hover {
+  background: #333333;
+  color: white;
+}
+/* End Form Login Top */
+
+/* Begin Upload File */
+input.upload {
+  border: 1px solid rgba(128, 128, 128, 0.27);
+  background: rgba(128, 128, 128, 0.26);
+  padding: 5px;
+}
+/* End Upload File */
+
+/* Begin Sign Up */
+.frm-signup {
+  max-width: 450px;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 12px;
+  background: #eaeaea;
+  border-radius: 5px;
+}
+.frm-signup .item-signup {
+  line-height: 37px;
+  margin-bottom: 10px;
+}
+.frm-signup .item-signup p {
+  color: #333333;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+}
+.frm-signup .item-signup p a {
+  color: #333333;
+  font-family: arial;
+  font-size: 13px;
+}
+.frm-signup .item-signup p a:hover {
+  text-decoration: underline;
+  color: red;
+}
+p.option-login {
+  line-height: 20px;
+  width: 100% !important;
+  text-align: right;
+}
+.frm-signup .item-signup input {
+  border: 1px solid rgba(51, 51, 51, 0.52);
+  border-radius: 3px;
+  outline: none;
+  line-height: 25px;
+  width: 269px;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+.frm-signup .item-signup textarea {
+  border: 1px solid rgba(51, 51, 51, 0.52);
+  border-radius: 3px;
+  outline: none;
+  height: 100px;
+  width: 269px;
+  padding: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.signup {
+  float: right;
+}
+
+.frm-signup .signup input {
+  border: 1px solid rgba(128, 128, 128, 0.64);
+  outline: none;
+  min-width: 100px;
+  height: 32px;
+  font-size: 15px;
+  color: #333333;
+  font-family: arial;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.frm-signup .signup input:hover {
+  background: #333333;
+  color: white;
+}
+/* End Sign Up */
+
+/* Begin Wrap Info User */
+.wrap-info-user {
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid rgba(128, 128, 128, 0.47);
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+.item-account {
+  font-family: arial;
+  margin-bottom: 10px;
+}
+.item-account > span#lbl-dk {
+  display: inline-block;
+  width: 145px;
+  line-height: 30px;
+  font-size: 13px;
+}
+.item-account > input.input-dk {
+  display: inline-block;
+  line-height: 30px;
+  width: 300px;
+  border-radius: 2px;
+  border: 1px solid rgba(128, 128, 128, 0.47);
+  text-indent: 5px;
+}
+a#change_pass,
+a#boqua {
+  display: inline-block;
+  background: #22b14c;
+  padding: 0px 10px;
+  line-height: 25px;
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+}
+a#boqua {
+  background: red;
+  margin-left: 148px;
+}
+.content_change_pass {
+  display: none;
+  margin-top: 10px;
+}
+input.btn-info-user {
+  border: 0px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0px 10px;
+  background: #22b14c;
+  color: white;
+  outline: none;
+}
+/* End Wrap Info User */
+
+/* Begin Wrap His Cart */
+.item-his-cart {
+  margin-bottom: 20px;
+}
+.item-his-cart > span {
+  background: #22b14c;
+  display: block;
+  line-height: 30px;
+  padding: 0px 10px;
+  margin-bottom: 5px;
+  color: white;
+  font-family: arial;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+}
+.item-his-cart > span > i {
+  position: absolute;
+  right: 10px;
+  top: calc(50% - 9px);
+  font-size: 18px;
+  cursor: pointer;
+}
+.item-his-cart > span > i:last-child {
+  right: 10px;
+}
+.item-his-cart > span > i:first-child {
+  right: 35px;
+}
+.wrap-his-cart {
+  display: none;
+}
+.wrap-his-cart.active {
+  display: block;
+}
+.wrap-his-cart:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.wrap-his-cart table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  font-family: arial;
+  font-weight: normal;
+  line-height: 30px;
+  font-size: 14px;
+}
+/* End Wrap His Cart */
+
+/* Begin Login Face Vs Google */
+span#span-choice {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-family: tahoma;
+}
+a.login-social {
+  max-width: 210px;
+  margin: auto;
+  display: block;
+  margin-bottom: 5px;
+}
+a.login-social img {
+  max-width: 100%;
+}
+/* End Login Face Vs Google */
+
+.images_member {
+  text-align: center;
+  margin: 10px 0px;
+}
+.input_file {
+  display: none;
+}
+.images_member img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}

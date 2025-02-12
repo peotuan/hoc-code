@@ -1,0 +1,9 @@
+.fancybox-slide > * {
+  padding: 10px;
+  overflow: initial;
+}
+.fancybox-close-small {
+  top: -15px;
+  right: -15px;
+  outline: none;
+}

@@ -1321,54 +1321,6 @@ coccocgrammar {
 .js-facebook-messenger-tooltip {
   z-index: 999;
 }
-.js-facebook-messenger-box {
-  display: block;
-  position: fixed;
-  cursor: pointer;
-  bottom: 150px;
-  right: 17px;
-  width: 56px;
-  height: 56px;
-  text-align: center;
-  background: #1182fc;
-  border-radius: 100%;
-  overflow: hidden;
-  z-index: 99;
-  -webkit-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
-}
-.js-facebook-messenger-box.rotate svg#fb-msng-icon {
-  transform: rotate(0deg);
-}
-.js-facebook-messenger-box svg#fb-msng-icon {
-  width: 32px;
-  height: 33px;
-  position: absolute;
-  top: 13px;
-  left: 12px;
-  opacity: 1;
-  overflow: hidden;
-  -webkit-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
-  -moz-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
-  -o-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
-  transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
-}
-.js-facebook-messenger-box.rotate svg#close-icon {
-  transform: rotate(-45deg);
-}
-.js-facebook-messenger-box svg#close-icon {
-  opacity: 0;
-  width: 19px;
-  height: 20px;
-  position: absolute;
-  top: 19px;
-  left: 19px;
-  -webkit-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
-  -moz-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
-  -o-transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
-  transition: opacity 160ms ease-in-out, transform 160ms ease-in-out;
-}
 .js-facebook-messenger-container,
 .js-facebook-messenger-container-button {
   z-index: 1000;
@@ -1903,10 +1855,21 @@ coccocgrammar {
 }
 
 /* Điều chỉnh kích thước tin tức */
-@media (max-width: 850px) {
+@media screen and (max-width: 850px) {
   .news {
     width: 100%;
     float: none !important;
+    margin: 0 0 15px 0;
+    display: block;
+  }
+}
+
+/* Add additional breakpoint for smaller screens */
+@media screen and (min-width: 851px) {
+  .news {
+    width: 48%;
+    float: left;
+    margin: 0 1% 15px 1%;
   }
 }
 

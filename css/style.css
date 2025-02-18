@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("main.css");
 /* Main */
 :root {
   --color-red: #ec2d3f;
@@ -1851,6 +1852,61 @@ coccocgrammar {
   }
   .menu-res {
     display: block;
+  }
+
+  .search .w-clear {
+    display: none;
+  }
+  /* Ẩn menu ban đầu */
+
+  /* Định dạng menu */
+  #menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #menu ul li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #444;
+  }
+  .tieuchi__block .container ul {
+    display: flex;
+    flex-direction: column; /* Hiển thị các mục theo chiều dọc */
+    padding: 0;
+  }
+
+  .tieuchi__block .container ul li {
+    margin-bottom: 20px; /* Khoảng cách giữa các phần tử */
+    width: 100%; /* Đảm bảo phần tử chiếm hết chiều rộng */
+  }
+
+  .tieuchi__block .container ul li a {
+    display: block;
+    text-align: center;
+    max-width: 100%; /* Giới hạn chiều rộng */
+  }
+
+  .tieuchi__block .container ul li img {
+    width: 30%; /* Đảm bảo ảnh không bị tràn */
+    height: auto;
+  }
+
+  .tieuchi__block .container ul li p {
+    margin-top: 10px;
+    word-wrap: break-word; /* Đảm bảo nội dung không bị tràn sang bên ngoài */
+  }
+  .product__block .tit__product a {
+    display: none;
+  }
+  .product__block .product__block1 .product__block1a {
+    display: none;
+  }
+  .product_block1b {
+    width: 100%;
   }
 }
 

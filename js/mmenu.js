@@ -213,7 +213,7 @@ MMenu.registerAddon = function(name, addon) {
       },
       onClick: {
         close: true,
-        preventDefault: true,
+        preventDefault: false,
         setSelected: true
       }
     };
@@ -296,13 +296,12 @@ MMenu.registerAddon = function(name, addon) {
 
       // Handle clicks
       $menu.on('click', 'a', function(e) {
-        if (config.onClick.preventDefault) {
-          e.preventDefault();
-        }
+        const $link = $(this);
+        const href = $link.attr('href');
 
         if (config.onClick.setSelected) {
           $menu.find('.mm-listitem--selected').removeClass('mm-listitem--selected');
-          $(this).closest('.mm-listitem').addClass('mm-listitem--selected');
+          $link.closest('.mm-listitem').addClass('mm-listitem--selected');
         }
 
         if (config.onClick.close) {
@@ -310,6 +309,14 @@ MMenu.registerAddon = function(name, addon) {
           $overlay.fadeOut();
           $('#hamburger').removeClass('active');
           $('body').css('overflow', '');
+        }
+
+        // Allow default link behavior if it's a valid URL
+        if (href && href !== '#' && !$link.hasClass('mm-next')) {
+          // Small delay to allow animation to complete
+          setTimeout(function() {
+            window.location.href = href;
+          }, 300);
         }
       });
 
